@@ -1,0 +1,15 @@
+{
+  "title": "My Blog Made in Nextjs",
+  "description": "Starter blog using markdown with Next.js.",
+  "contact": {
+    "website_url": "https://brenborbs.io",
+    "made_with_url": "https://gatsbyjs.com",
+    "email": "info@brenborbs.io",
+    "twitter_handle": "@brenborbsio",
+    "twitter_url": "https://twitter.com/brenborbsio",
+    "github_handle": "brenborbsio",
+    "github_url": "https://github.com/brenborbsio"
+  },
+  "primary_color": "#AEC4BE",
+  "repository_url": "https://github.com/brenborbs/starter-blog-next"
+}
