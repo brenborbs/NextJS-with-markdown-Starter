@@ -36,6 +36,24 @@ export default class Store extends Component {
         name: "Kendrick Lamar",
         link:
           "https://geo.itunes.apple.com/us/album/untitled-unmastered./id1089846273?at=1l3vqFJ&mt=1&app=music"
+      },
+      {
+        id: 4,
+        image:
+          "http://is3.mzstatic.com/image/thumb/Music62/v4/fa/ae/a6/faaea65f-0819-bb5d-afaa-4f5e84015204/source/400x40000bb.png",
+        title: "99 Cents",
+        name: "Santigold",
+        link:
+          "https://geo.itunes.apple.com/us/album/99-cents/id1054734475?at=1l3vqFJ&mt=1&app=music"
+      },
+      {
+        id: 5,
+        image:
+          "http://is2.mzstatic.com/image/thumb/Music18/v4/34/03/34/34033451-12e2-2d0b-c100-11a390922a01/source/400x40000bb.png",
+        title: "A Moon Shaped Pool",
+        name: "Radiohead",
+        link:
+          "https://geo.itunes.apple.com/us/album/a-moon-shaped-pool/id1111577743?at=1l3vqFJ&mt=1&app=music"
       }
     ]
   };

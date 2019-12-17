@@ -2,7 +2,7 @@
 title: "third-post"
 author: John Wick
 date: 2019-07-10
-hero_image: ../static/humor.jpg
+hero_image: ../static/arts.jpg
 ---
 
 Chicken landjaeger shankle pig ribeye. T-bone doner rump burgdoggen pastrami brisket, pork belly venison. Kevin shoulder venison t-bone bresaola salami ribeye chislic tongue andouille. Corned beef leberkas ham ham hock, turducken cupim kevin pork short loin doner hamburger andouille. Tri-tip hamburger strip steak jowl, turducken venison frankfurter pork tail brisket.

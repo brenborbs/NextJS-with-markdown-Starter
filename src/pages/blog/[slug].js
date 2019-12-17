@@ -13,21 +13,28 @@ export default function BlogTemplate(props) {
   const frontmatter = props.data;
   return (
     <Layout siteTitle={props.siteTitle}>
-      <article className="blog">
-        <figure className="blog__hero">
+      <article className="baskerville pb5">
+        <header className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
+          <h1 className="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">
+            {frontmatter.title}
+          </h1>
+          <time className="f5 f4-l db fw1 baskerville mb4">
+            {reformatDate(frontmatter.date)}
+          </time>
           <img
             src={frontmatter.hero_image}
             alt={`blog_hero_${frontmatter.title}`}
+            className="w-100 dib measure f3"
           />
-        </figure>
-        <div className="blog__info">
-          <h1>{frontmatter.title}</h1>
-          <h3>{reformatDate(frontmatter.date)}</h3>
+        </header>
+        <div className="ph3 ph4-m ph5-l">
+          <div className="measure db center f5 f4-ns lh-copy">
+            <p className="f4 mb4 center measure lh-copy">
+              Written By: {frontmatter.author}
+            </p>
+            <ReactMarkdown source={markdownBody} />
+          </div>
         </div>
-        <div className="blog__body">
-          <ReactMarkdown source={markdownBody} />
-        </div>
-        <h2 className="blog__footer">Written By: {frontmatter.author}</h2>
       </article>
       <style jsx>
         {`

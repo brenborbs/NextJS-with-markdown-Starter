@@ -18,7 +18,7 @@ export default function Header(props) {
               Home
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/about">
             <a className="link dim gray f6 f5-ns dib mr3" title="About">
               About
             </a>
@@ -28,7 +28,7 @@ export default function Header(props) {
               Store
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/contact">
             <a className="link dim gray f6 f5-ns dib" title="Contact">
               Contact
             </a>
